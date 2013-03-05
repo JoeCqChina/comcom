@@ -25,13 +25,13 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #c44f57;
   margin: 0;
 }
 
 ::selection,
 ::-moz-selection {
-  background-color: #de6439;
+  background-color: #c44f57;
   color: #fff;
   text-shadow: none;
 }
@@ -39,7 +39,7 @@ body {
 /* Links
  ========================================================================== */
 a {
-  color: #de6439;
+  color: #c44f57;
   text-decoration: none;
 }
 
@@ -183,21 +183,11 @@ p, blockquote, ul, ol, dl, menu, pre {
   clear: both;
 }
 
-/* Media object
+/* Contain
    ========================================================================== */
-/* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
-.media {
-  display: block;
-}
-
-.media-img {
-  float: left;
-  margin-right: 1em;
-}
-
-.media-body {
-  overflow: hidden;
-  margin-bottom: 0;
+.contain {
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 /* Horizontal block
@@ -237,11 +227,21 @@ p, blockquote, ul, ol, dl, menu, pre {
   left: -999em;
 }
 
-/* Contain
+/* Media object
    ========================================================================== */
-.contain {
-  max-width: 940px;
-  margin: 0 auto;
+/* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
+.media {
+  display: block;
+}
+
+.media-img {
+  float: left;
+  margin-right: 1em;
+}
+
+.media-body {
+  overflow: hidden;
+  margin-bottom: 0;
 }
 
 /* Pusher
