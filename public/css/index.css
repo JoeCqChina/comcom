@@ -186,7 +186,7 @@ p, blockquote, ul, ol, dl, menu, pre {
 /* Contain
    ========================================================================== */
 .contain {
-  max-width: 680px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -235,7 +235,7 @@ p, blockquote, ul, ol, dl, menu, pre {
 }
 @media only screen and (min-width: 44em) {
   .island {
-    padding: 2.5em;
+    padding: 4em;
   }
 }
 
