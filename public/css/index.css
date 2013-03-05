@@ -16,8 +16,8 @@ nav, section {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 16px;
+  line-height: 1.5;
   color: #3e3e3e;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
@@ -162,7 +162,7 @@ small,
 * Block-level margins
 */
 p, blockquote, ul, ol, dl, menu, pre {
-  margin: 0 0 1.4em;
+  margin: 0 0 1.5em;
 }
 
 /* Clearfix
@@ -186,7 +186,7 @@ p, blockquote, ul, ol, dl, menu, pre {
 /* Contain
    ========================================================================== */
 .contain {
-  max-width: 940px;
+  max-width: 680px;
   margin: 0 auto;
 }
 
@@ -227,6 +227,18 @@ p, blockquote, ul, ol, dl, menu, pre {
   left: -999em;
 }
 
+/* Island
+   ========================================================================== */
+.island {
+  padding: 1em;
+  word-wrap: break-word;
+}
+@media only screen and (min-width: 44em) {
+  .island {
+    padding: 2.5em;
+  }
+}
+
 /* Media object
    ========================================================================== */
 /* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
@@ -234,12 +246,12 @@ p, blockquote, ul, ol, dl, menu, pre {
   display: block;
 }
 
-.media-img {
+.media_img {
   float: left;
   margin-right: 1em;
 }
 
-.media-body {
+.media_body {
   overflow: hidden;
   margin-bottom: 0;
 }
@@ -267,5 +279,17 @@ p, blockquote, ul, ol, dl, menu, pre {
 }
 
 .push--zero {
+  margin: 0;
+}
+
+/* Comments
+   ========================================================================== */
+.comments {
+  background-color: #f4fbfb;
+}
+
+.comment__listing {
+  list-style: none;
+  padding-left: 0;
   margin: 0;
 }

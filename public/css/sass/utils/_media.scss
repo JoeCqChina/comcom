@@ -3,15 +3,15 @@
 
 /* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
 .media {
-	display:block;
+	display: block;
 }
 
-.media-img {
-	float:left;
-	margin-right:1em;
+.media_img {
+	float: left;
+	margin-right: 1em;
 }
 
-.media-body {
-	overflow:hidden;
-	margin-bottom:0;
+.media_body {
+	overflow: hidden;
+	margin-bottom: 0;
 }

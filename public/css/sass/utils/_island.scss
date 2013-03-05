@@ -1,0 +1,11 @@
+/* Island
+   ========================================================================== */
+
+.island {
+  padding: 1em;
+  word-wrap: break-word;
+
+  @include respond-to(med) {
+    padding: 2.5em;
+  }
+}

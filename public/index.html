@@ -10,12 +10,28 @@
   <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
-  <div class="contain">
+  <div class="contain site-body">
     <h1>Introducing ComCom</h1>
 
-    <div class="comments">
-
+    <div class="island comments">
+      <ol class="comment__listing">
+        <li class="comment__item">
+          <a href="http://github.com/<%= url %>" class="media_img" title="http://github.com/">
+            <i class="i--loader"></i>
+            <img src="http://placehold.it/100" class="comment__avatar" alt="s avatar" width="80" />
+          </a>
+          <div class="media_body">
+            <a href="http://github.com/" class="comment__id" title="">brad</a>
+            <time datetime="<%= date %>" class="comment__date" pubdate="">date</time>
+            <p>While it was nice that i got a notification when you commented on this which is expected and suuupper slick, there should be a way for users to opt out of notifications from comments unless they're mentioned. Thoughts?</p>
+          </div>
+        </li>
+      </ol>
     </div>
+
+    <form class="island" style="background-color: #F0F0F0">
+      <textarea placeholder="Be nice and constructive&hellip;"></textarea>
+    </form>
   </div>
 </body>
 </html>
